@@ -1,0 +1,1 @@
+﻿INSERT INTO Character VALUES (1,'Warrior',0,0,0,0,0,0,0,0,0)

@@ -1,0 +1,36 @@
+﻿<Window x:Class="WhiteboxRPG_ProgramowanieIV.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WhiteboxRPG_ProgramowanieIV"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="486" Width="821">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Graph paper.webp"/>
+        </Grid.Background>
+        <Border x:Name="Textlog" BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="285" Margin="221,62,0,0" VerticalAlignment="Top" Width="569">
+            <TextBlock x:Name="textBlock" Text="TextBlock" TextWrapping="Wrap" Margin="0,-1,-1,-1" FontFamily="Rockwell" FontSize="15"/>
+        </Border>
+        <TextBlock x:Name="Class_Display" TextWrapping="Wrap" Margin="11,20,600,415" FontFamily="Rockwell" FontSize="14"><Run Language="pl-pl" Text="Class"/></TextBlock>
+        <Button x:Name="button1" Content="Button1" HorizontalAlignment="Left" Margin="221,352,0,0" VerticalAlignment="Top" Height="39" Width="158" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Button2" HorizontalAlignment="Left" Margin="400,352,0,0" VerticalAlignment="Top" Height="39" Width="179" Click="button2_Click"/>
+        <Button x:Name="button3" Content="Button3" HorizontalAlignment="Left" Margin="600,352,0,0" VerticalAlignment="Top" Height="39" Width="190" Click="button3_Click"/>
+        <Button x:Name="button4" Content="Button4" HorizontalAlignment="Left" Margin="221,395,0,0" VerticalAlignment="Top" Height="39" Width="158" Click="button4_Click"/>
+        <Button x:Name="button5" Content="Button5" HorizontalAlignment="Left" Margin="400,395,0,0" VerticalAlignment="Top" Height="39" Width="179" Click="button5_Click"/>
+        <Button x:Name="button6" Content="Button6" HorizontalAlignment="Left" Margin="600,395,0,0" VerticalAlignment="Top" Height="39" Width="190" Click="button6_Click"/>
+        <TextBlock x:Name="HP_Display" TextWrapping="Wrap" Margin="11,60,600,375" FontFamily="Rockwell" FontSize="14"><Run Language="pl-pl" Text="HP"/></TextBlock>
+        <TextBlock x:Name="MP_Display" TextWrapping="Wrap" Margin="11,95,600,340" FontFamily="Rockwell" FontSize="14"><Run Language="pl-pl" Text="MP"/><LineBreak/><Run Language="pl-pl"/></TextBlock>
+        <TextBlock x:Name="Lv_Display" TextWrapping="Wrap" Margin="11,130,600,305" FontFamily="Rockwell" FontSize="14"><Run Language="pl-pl" Text="Lv"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:Name="Exp_Display" TextWrapping="Wrap" Margin="11,165,600,270" FontFamily="Rockwell" FontSize="14"><Run Language="pl-pl" Text="Exp"/></TextBlock>
+        <TextBlock x:Name="Gold_Display" TextWrapping="Wrap" Margin="11,200,600,235" FontFamily="Rockwell" FontSize="14"><Run Language="pl-pl" Text="Gold: "/></TextBlock>
+        <TextBlock x:Name="Weapon_Display" TextWrapping="Wrap" Margin="11,235,600,200" FontFamily="Rockwell" FontSize="14"><Run Language="pl-pl" Text="Weapon"/></TextBlock>
+        <TextBlock x:Name="Shield_Display" TextWrapping="Wrap" Margin="11,275,600,160" FontFamily="Rockwell" FontSize="14"><Run Language="pl-pl" Text="Shield"/></TextBlock>
+        <TextBlock x:Name="Armor_Display" TextWrapping="Wrap" Margin="10,315,601,120" FontFamily="Rockwell" FontSize="14"><Run Language="pl-pl" Text="Armor"/></TextBlock>
+        <TextBlock x:Name="Trinket_Display" TextWrapping="Wrap" Margin="11,352,600,83" FontFamily="Rockwell" FontSize="14"><Run Language="pl-pl" Text="Trinket"/></TextBlock>
+        <TextBlock x:Name="Misc_Display" TextWrapping="Wrap" Margin="11,399,600,36" FontFamily="Rockwell" FontSize="14"><Run Language="pl-pl" Text="AC: MR: ATK:"/></TextBlock>
+        <TextBlock x:Name="textBlock1" TextWrapping="Wrap" Margin="221,10,31,408" FontFamily="Algerian" FontSize="28"><Run Language="pl-pl" Text="Tales of the Whitebox Dungeon"/></TextBlock>
+
+    </Grid>
+</Window>

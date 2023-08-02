@@ -1,0 +1,1 @@
+﻿INSERT INTO Items VALUES(1,'Placeholder',0,0,0,0,10);
