@@ -6,9 +6,7 @@ Możecie sobie przejrzeć ten kod, może pobrać projekt i spróbować go urucho
 
 Dla działania zapisu i wczytu danych w aplikacji potrzebne jest połączenie z bazą danych zwaną Database1.mdf.
 Konieczne będzie odkomentowanie 155-tej linjki MainWindow.xaml.cs , i zakomentowanie / lub modyfikacja 156 linijki - są odpowiedzialne za zmienną cnString , czyli ścieżka do połączenia z bazą danych.
-Samą baże danych nie umiem wrzucić na Gita, więc daję poniżej link do pobrania jej z dysku google:
-
-
+Samą baże danych musiałem zapisać jako archiwum .rar - należy ją wypakować przed uruchomianiem aplikacji.
 Alternatywa to stworzenie jej np. w visualu: poniżej jej dwie tabele.
 (Gdyby połączenie z bazą nie było wymaganą częścią projektu użyłbym zwykłego pliku txt..)
 
